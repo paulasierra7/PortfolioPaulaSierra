@@ -10,6 +10,10 @@ function Features() {
 
   const tabs = useRef(null);
 
+  const marginStyle = {
+    margin: '20px' 
+  };
+
   const heightFix = () => {
     if (tabs.current.children[tab]) {
       tabs.current.style.height = tabs.current.children[tab - 1].offsetHeight + 'px'
@@ -145,13 +149,53 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 > */}
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none object-center mx-auto rounded" src="https://raw.githubusercontent.com/paulasierra7/Amazon-Copy-E-Commerce/8d4621aff5e996ccb4a2dbec4302ebac6d374eb6/proyectoFinal.gif" width="500" height="462"  />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
-                  </div>
-                  {/* <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none object-center mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                  </div> */}
+                {/* 6th item */}
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Figma</h4>
+              <div >
+                      <li>
+                        <a href="https://amazon-ecommerce-chi.vercel.app/" target="_blank" rel="noopener noreferrer">
+                          <img className="md:max-w-none object-center rounded col " style={marginStyle} src="https://raw.githubusercontent.com/paulasierra7/Amazon-Copy-E-Commerce/8d4621aff5e996ccb4a2dbec4302ebac6d374eb6/proyectoFinal.gif" width="500" height="462"  />
+                        </a>
+                        <div>
+                          <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0 col" href="https://github.com/paulasierra7/Amazon-Copy-E-Commerce">
+                            View code
+                          </a>
+                        </div>
+                        <div>
+                          <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 col" href="https://amazon-ecommerce-chi.vercel.app/">
+                            View Website
+                          </a>
+                        </div>
+                      </li>
+              </div>
+            </div>
+                <ul>
+                  <div className="relative inline-flex flex-row">
+                      <li>
+                        <a href="https://amazon-ecommerce-chi.vercel.app/" target="_blank" rel="noopener noreferrer">
+                          <img className="md:max-w-none object-center rounded col " style={marginStyle} src="https://raw.githubusercontent.com/paulasierra7/Amazon-Copy-E-Commerce/8d4621aff5e996ccb4a2dbec4302ebac6d374eb6/proyectoFinal.gif" width="500" height="462"  />
+                        </a>
+                        <div>
+                          <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0 col" href="https://github.com/paulasierra7/Amazon-Copy-E-Commerce">
+                            View code
+                          </a>
+                        </div>
+                        <div>
+                          <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 col" href="https://amazon-ecommerce-chi.vercel.app/">
+                            View Website
+                          </a>
+                        </div>
+                      </li>
+                      <li>
+                        {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
+                        <a href="https://wheels-carpooling-app.vercel.app/" target="_blank" rel="noopener noreferrer">
+                          <img className="md:max-w-none object-center rounded col " style={marginStyle} src="https://github.com/paulasierra7/wheels-carpooling-app/blob/master/src/images/landing.gif?raw=true" width="500" height="500" alt="Features bg" />
+                        </a>
+                      </li>
+                  </div> 
+                </ul>
                 {/* </Transition> */}
               </div>
             </div >

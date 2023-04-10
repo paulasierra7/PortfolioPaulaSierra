@@ -8,12 +8,12 @@ function Projects() {
     return (
       <section>
 
-                <div className="relative inline-flex flex-col">
+                {/* <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src="https://raw.githubusercontent.com/paulasierra7/Amazon-Copy-E-Commerce/8d4621aff5e996ccb4a2dbec4302ebac6d374eb6/proyectoFinal.gif" width="500" height="462" alt="Features bg" />
                 </div>
                 <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src="https://github.com/paulasierra7/wheels-carpooling-app/blob/master/src/images/landing.gif?raw=true" width="500" height="462" alt="Features bg" />
-                </div>
+                </div> */}
 
 
 
