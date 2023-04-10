@@ -40,7 +40,7 @@ function HeroHome() {
                             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">
                                 Paula Sierra's
                                 <br></br>
-                                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Portfolio</span>
+                                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Developer Portfolio</span>
                             </h1>
                         </div>
                         <div className="max-w-3xl mx-auto">
