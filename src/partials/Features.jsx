@@ -89,7 +89,7 @@ function Features() {
                                     <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl flex-2">
                                         <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">App landing page in React.JS</h4>
                                         <div>
-                                            <a href="https://wheels-carpooling-app.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://wheels-carpooling-app-7h89.vercel.app/" target="_blank" rel="noopener noreferrer">
                                                 <img className="md:max-w-none object-center rounded col "
                                                     style={marginStyle2}
                                                     src="https://github.com/paulasierra7/wheels-carpooling-app/blob/master/src/images/landing.gif?raw=true"
