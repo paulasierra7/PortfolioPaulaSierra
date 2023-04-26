@@ -100,7 +100,7 @@ function Features() {
                                             <div className="flex flex-grow">
                                                 <ul className="flex flex-grow justify-end flex-wrap items-center">
                                                     <li>
-                                                        <a className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out" href="https://github.com/paulasierra7/Amazon-Copy-E-Commerce">View code</a>
+                                                        <a className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out" href="https://github.com/paulasierra7/wheels-carpooling-app">View code</a>
                                                     </li>
                                                     <li>
                                                         <a className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3" href="https://wheels-carpooling-app-7h89.vercel.app/">
